@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:aboutmebg"
+    ohos:orientation="vertical">
+
+
+    <Button
+        ohos:height="40fp"
+        ohos:top_margin="10fp"
+        ohos:width="40fp"
+        ohos:left_margin="40fp"
+        ohos:background_element="$media:backbnt"
+        ohos:text_color="#FFFFFF"
+        ohos:id="$+id:btn_back">
+    </Button>
+
+
+
+</DirectionalLayout>

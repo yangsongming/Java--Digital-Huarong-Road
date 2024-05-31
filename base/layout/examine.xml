@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="$media:bk1">
+
+    <Button
+        ohos:height="40fp"
+        ohos:top_margin="10fp"
+        ohos:width="40fp"
+        ohos:left_margin="10fp"
+        ohos:background_element="$media:backbnt"
+        ohos:text_color="#FFFFFF"
+        ohos:id="$+id:btn_back">
+
+    </Button>
+
+    <Button
+        ohos:id="$+id:btnChooseImg"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="选择图片"
+        ohos:text_size="40vp"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="gray">
+
+    </Button>
+
+<!--    <Image-->
+<!--        ohos:id="$+id:showChooseImg"-->
+<!--        ohos:height="match_content"-->
+<!--        ohos:width="match_content"-->
+<!--        >-->
+<!--    </Image>-->
+
+<!--    <Image-->
+<!--    ohos:id="$+id:showChooseImg"-->
+<!--    ohos:height="match_content"-->
+<!--    ohos:width="match_content"-->
+<!--    ohos:layout_alignment="horizontal_center"-->
+<!--    >-->
+<!--</Image>-->
+
+
+    <Image
+        ohos:height="80fp"
+        ohos:width="80fp"
+        ohos:top_margin="5fp"
+        ohos:id="$+id:xz"
+        ohos:image_src="$media:pic6"
+        ohos:scale_mode="stretch">
+    </Image>
+
+</DirectionalLayout>
+
+

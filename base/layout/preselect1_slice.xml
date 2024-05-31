@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bg2"
+    ohos:layout_alignment="horizontal_center"
+    ohos:orientation="vertical">
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal"
+            ohos:layout_alignment="horizontal_center">
+
+        <Button
+            ohos:height="40fp"
+            ohos:top_margin="5fp"
+            ohos:width="40fp"
+            ohos:left_margin="10fp"
+            ohos:background_element="$media:backbnt"
+            ohos:text_color="#FFFFFF"
+            ohos:id="$+id:btn_back">
+
+        </Button>
+
+<!--                <Button-->
+<!--                    ohos:id="$+id:selectfromalbumbtn"-->
+<!--                    ohos:text="相册选择"-->
+<!--                    ohos:height="45fp"-->
+<!--                    ohos:width="100fp"-->
+<!--                    ohos:left_margin="10fp"-->
+<!--                    ohos:text_size="20fp"-->
+<!--                    ohos:background_element="$graphic:subbtn"-->
+<!--                    ohos:visibility="visible"-->
+<!--                    ohos:text_color="#FFFFFF"-->
+<!--                    >-->
+<!--                </Button>-->
+        <Button
+            ohos:height="40fp"
+            ohos:width="40fp"
+            ohos:top_margin="5fp"
+            ohos:left_margin="250fp"
+            ohos:background_element="$media:ques"
+            ohos:text_color="#FFFFFF"
+            ohos:id="$+id:quesbnt">
+        </Button>
+
+
+
+        </DirectionalLayout>
+
+
+        <Image
+            ohos:height="120fp"
+            ohos:width="470fp"
+            ohos:top_margin="5fp"
+            ohos:image_src="$media:title2"
+            ohos:scale_mode="stretch"
+            ohos:layout_alignment="horizontal_center"
+            >
+
+        </Image>
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal"
+            ohos:layout_alignment="horizontal_center">
+
+        <Button
+            ohos:id="$+id:btn_num"
+            ohos:text="提示选择"
+            ohos:height="50fp"
+            ohos:width="120fp"
+            ohos:left_margin="20fp"
+            ohos:background_element="$graphic:playbtn"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="25fp"
+            >
+        </Button>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="10fp"
+                    ohos:text="您是否选择了提示 是"
+                    ohos:text_size="20fp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:id="$+id:displayText">
+
+                </Text>
+        </DirectionalLayout>
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal"
+            ohos:layout_alignment="horizontal_center">
+
+        <Button
+            ohos:text="难度选择"
+            ohos:id="$+id:selectDiffBtn"
+            ohos:height="50fp"
+            ohos:width="120fp"
+            ohos:top_margin="5fp"
+            ohos:text_size="20fp"
+            ohos:background_element="$graphic:subbtn"
+            ohos:text_color="#FFFFFF"
+            ohos:layout_alignment="horizontal_center"
+            >
+        </Button>
+
+
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="10fp"
+            ohos:text="您选择的难度为 3×3"
+            ohos:text_size="20fp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:id="$+id:diffText">
+        </Text>
+
+        </DirectionalLayout>
+
+        <PageSlider
+            ohos:id="$+id:page_slider"
+            ohos:height="300vp"
+            ohos:width="300vp"
+            ohos:layout_alignment="horizontal_center"/>
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:top_margin="5fp"
+            ohos:id="$+id:albumImage"
+            ohos:image_src="$media:pic2"
+            ohos:scale_mode="stretch">
+        </Image>
+
+        <Image
+            ohos:height="60fp"
+            ohos:width="240fp"
+            ohos:image_src="$media:attention"
+            ohos:layout_alignment="horizontal_center"
+            ohos:scale_mode="stretch">
+        </Image>
+
+        <Button
+            ohos:left_margin="10fp"
+            ohos:text="开始游戏"
+            ohos:height="60fp"
+            ohos:width="150fp"
+            ohos:background_element="$graphic:playbtn"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="30fp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:id="$+id:btn_play">
+
+        </Button>
+
+</DirectionalLayout>

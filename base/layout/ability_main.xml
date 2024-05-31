@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="$media:bg1"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:top_margin="5fp"
+        ohos:height="200fp"
+        ohos:width="500fp"
+        ohos:id="$+id:tip_image"
+        ohos:scale_mode="stretch"
+        ohos:background_element="$media:maintitle">
+    </Image>
+
+
+    <Button
+        ohos:top_margin="60fp"
+        ohos:height="60fp"
+        ohos:width="120fp"
+        ohos:background_element="$media:bt11"
+        ohos:id="$+id:btn_play">
+    </Button>
+
+    <Button
+        ohos:top_margin="10fp"
+        ohos:height="60fp"
+        ohos:width="120fp"
+        ohos:background_element="$media:bt5"
+        ohos:id="$+id:cg">
+
+    </Button>
+
+    <Button
+        ohos:top_margin="10fp"
+        ohos:height="60fp"
+        ohos:width="120fp"
+        ohos:background_element="$media:bt12"
+        ohos:id="$+id:btn_play2">
+    </Button>
+
+
+    <Button
+        ohos:top_margin="10fp"
+        ohos:height="60fp"
+        ohos:width="120fp"
+        ohos:background_element="$media:bt3"
+        ohos:id="$+id:btn_guide">
+
+    </Button>
+
+
+    <Button
+        ohos:top_margin="10fp"
+        ohos:height="60fp"
+        ohos:width="120fp"
+        ohos:background_element="$media:bt4"
+        ohos:id="$+id:btn_about">
+
+    </Button>
+
+<!--    <Button-->
+<!--        ohos:top_margin="10fp"-->
+<!--        ohos:height="60fp"-->
+<!--        ohos:width="120fp"-->
+<!--        ohos:background_element="$media:bt4"-->
+<!--        ohos:id="$+id:test">-->
+
+<!--    </Button>-->
+
+
+
+
+</DirectionalLayout>

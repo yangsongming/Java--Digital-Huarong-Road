@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="#FFEFFAF6"
+    ohos:top_margin="10fp"
+    ohos:bottom_margin="10fp"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_color="#BA55D3"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="闯关模式教程"
+        ohos:text_size="25fp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_color="#000000"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="  闯关模式是基于华容道模式衍生出的"
+        ohos:text_size="14fp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_color="#000000"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="互动类游戏模块，您需要进行不断的闯关"
+        ohos:text_size="14fp"/>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_color="#000000"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="挑战。注意，您需要逐步解锁各个关卡"
+        ohos:text_size="14fp"/>
+
+
+    <Image
+        ohos:height="match_content"
+        ohos:id="$+id:tip_image"
+        ohos:scale_mode="stretch"
+        ohos:width="match_parent">
+
+    </Image>
+
+    <Button
+        ohos:id="$+id:ok_btn"
+        ohos:text="确定"
+        ohos:top_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:playbtn"
+        ohos:text_color="#FFFFFF"
+        ohos:height="match_content"
+        ohos:width="70fp"
+        >
+    </Button>
+
+
+
+
+</DirectionalLayout>

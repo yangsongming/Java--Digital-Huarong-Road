@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+xmlns:ohos="http://schemas.huawei.com/res/ohos"
+ohos:height="match_content"
+ohos:width="match_parent"
+ohos:alignment="horizontal_center"
+ohos:background_element="#FFEFFAF6"
+ohos:top_margin="10fp"
+ohos:bottom_margin="10fp"
+ohos:orientation="vertical">
+
+<Text
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:text_color="#BA55D3"
+    ohos:layout_alignment="horizontal_center"
+    ohos:text="难度选择"
+    ohos:text_size="25fp"/>
+
+<Image
+    ohos:height="match_content"
+    ohos:id="$+id:tip_image"
+    ohos:scale_mode="stretch"
+    ohos:width="match_parent">
+
+</Image>
+<Button
+    ohos:id="$+id:yes_btn"
+    ohos:text="我需要数字提示"
+    ohos:top_margin="10fp"
+    ohos:text_size="20fp"
+    ohos:background_element="$graphic:playbtn"
+    ohos:text_color="#FFFFFF"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    >
+</Button>
+
+    <Button
+        ohos:id="$+id:no_btn"
+        ohos:text="不需要数字提示"
+        ohos:top_margin="10fp"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:playbtn"
+        ohos:text_color="#FFFFFF"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        >
+    </Button>
+
+
+</DirectionalLayout>

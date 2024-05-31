@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:id="$+id:mainlayout"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="$media:bg3"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:top_margin="20fp"
+        ohos:orientation="horizontal"
+        ohos:alignment="horizontal_center"
+        ohos:height="match_content"
+        ohos:width="match_content">
+        <Text
+            ohos:text="用时:"
+            ohos:text_color="#2F4F4F"
+            ohos:height="match_content"
+            ohos:text_size="28fp"
+            ohos:width="match_content">
+
+        </Text>
+        <TickTimer
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:id="$+id:ticktimer"
+            ohos:text_color="#808080"
+            ohos:text_size="25fp">
+        </TickTimer>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="15fp"
+            ohos:text_color="#2F4F4F"
+            ohos:text_size="28fp"
+            ohos:text="步数:">
+
+        </Text>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="25fp"
+            ohos:id="$+id:stepCntText"
+            ohos:text_color="#808080"
+            ohos:text="0步">
+
+        </Text>
+
+    </DirectionalLayout>
+
+
+    <TableLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal"
+        ohos:id="$+id:jigsaw_layout">
+    </TableLayout>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:orientation="horizontal"
+        ohos:height="match_content"
+        ohos:margin="10fp"
+        ohos:width="match_content">
+
+<!--        <Button-->
+<!--            ohos:id="$+id:btn_end"-->
+<!--            ohos:text="提交"-->
+<!--            ohos:height="40fp"-->
+<!--            ohos:width="90fp"-->
+<!--            ohos:background_element="$graphic:subbtn"-->
+<!--            ohos:text_color="#FFFFFF"-->
+<!--            ohos:text_size="25fp"-->
+<!--            >-->
+<!--        </Button>-->
+
+        <Button
+            ohos:id="$+id:btn_begin"
+            ohos:text="开始游戏"
+            ohos:height="50fp"
+            ohos:width="120fp"
+            ohos:left_margin="20fp"
+            ohos:alignment="horizontal_center"
+            ohos:background_element="$graphic:playbtn"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="25fp"
+            >
+        </Button>
+
+
+    </DirectionalLayout>
+
+    <Button
+        ohos:id="$+id:btn_giveup"
+        ohos:text="结束游戏"
+        ohos:height="40fp"
+        ohos:width="120fp"
+        ohos:alignment="horizontal_center"
+        ohos:background_element="$graphic:giveupbtn"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="25fp"
+        >
+    </Button>
+
+    <Image
+        ohos:scale_mode="stretch"
+        ohos:height="50fp"
+        ohos:width="150fp"
+        ohos:margin="10fp"
+        ohos:image_src="$media:reference">
+    </Image>
+
+    <Image
+        ohos:id="$+id:img_tip"
+        ohos:scale_mode="stretch"
+        ohos:height="150fp"
+        ohos:width="150fp"
+        ohos:image_src="$media:pic7">
+    </Image>
+
+    <Button
+        ohos:id="$+id:btn_pbm"
+        ohos:text="问题申报"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:giveupbtn"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="25fp"
+        >
+    </Button>
+
+
+
+
+</DirectionalLayout>

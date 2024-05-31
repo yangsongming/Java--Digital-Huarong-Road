@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$media:bg1"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:height="40fp"
+            ohos:top_margin="10fp"
+            ohos:width="40fp"
+            ohos:left_margin="10fp"
+            ohos:background_element="$media:backbnt"
+            ohos:text_color="#FFFFFF"
+            ohos:id="$+id:btn_back">
+
+        </Button>
+
+        <Button
+            ohos:height="40fp"
+            ohos:width="40fp"
+            ohos:top_margin="5fp"
+            ohos:left_margin="250fp"
+            ohos:background_element="$media:ques"
+            ohos:text_color="#FFFFFF"
+            ohos:id="$+id:quesbnt">
+        </Button>
+
+
+    </DirectionalLayout>
+    <Image
+        ohos:top_margin="5fp"
+        ohos:height="160fp"
+        ohos:width="400fp"
+        ohos:id="$+id:tip_image"
+        ohos:scale_mode="stretch"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="$media:titlecg">
+    </Image>
+
+
+    <Button
+        ohos:top_margin="60fp"
+        ohos:height="60fp"
+        ohos:width="120fp"
+        ohos:text="第一关"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:subbtn"
+        ohos:text_color="#FFFFFF"
+        ohos:id="$+id:btn_play">
+    </Button>
+
+    <Image
+        ohos:top_margin="5fp"
+        ohos:height="40fp"
+        ohos:width="40fp"
+        ohos:scale_mode="stretch"
+        ohos:layout_alignment="horizontal_center"
+        ohos:background_element="$media:spear">
+    </Image>
+
+    <Button
+        ohos:top_margin="10fp"
+        ohos:height="60fp"
+        ohos:width="120fp"
+        ohos:text="第二关"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text_size="20fp"
+        ohos:background_element="$graphic:subbtn"
+        ohos:text_color="#FFFFFF"
+        ohos:id="$+id:btn_play2">
+    </Button>
+
+
+<!--    <Button-->
+<!--        ohos:top_margin="10fp"-->
+<!--        ohos:height="60fp"-->
+<!--        ohos:width="120fp"-->
+<!--        ohos:text="第三关"-->
+<!--        ohos:text_size="20fp"-->
+<!--        ohos:background_element="$graphic:subbtn"-->
+<!--        ohos:text_color="#FFFFFF"-->
+<!--        ohos:id="$+id:btn_guide">-->
+
+<!--    </Button>-->
+
+
+
+
+</DirectionalLayout>
